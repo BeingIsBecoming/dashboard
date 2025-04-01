@@ -1,0 +1,52 @@
+* {
+    margin: 5px;
+}
+
+body {
+    background-color: rgb(55, 48, 96);
+}
+
+.header {
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+button {
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 8px;
+    padding: 8px;
+    box-shadow: 3px;
+}
+
+.sidebar {
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.card {
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+    padding: 10px;
+    /* width: 1rem; */
+}
+
+.announce {
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+
+.trending {
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+strong {
+    color: whitesmoke;
+}
+
+.card strong {
+    color: black;
+}
