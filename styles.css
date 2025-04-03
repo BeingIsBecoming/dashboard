@@ -9,6 +9,14 @@
     src: url(assets/fonts/Roboto-Regular.woff2) format("woff2");
 }
 
+p {
+    font-size: 18px;
+}
+
+h3 {
+    margin-bottom: 8px;
+}
+
 body {
     background-color: rgb(79, 72, 122);
     font-family: "Roboto";
@@ -18,12 +26,12 @@ body {
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 3fr;
-    height: 100vh;
+    max-height: 100vh;
 }
 
 .header {
     background-color: whitesmoke;
-    padding: 10px;
+    padding: 15px;
     display: grid;
     grid-column: 2/4;
 }
@@ -43,7 +51,7 @@ body {
 .top-user .right {
     display: flex;
     align-items: center;
-    padding-left: 14px;
+    /* padding-left: 14px; */
     gap: 10px;
 }
 
@@ -61,7 +69,6 @@ body {
 
 .bottom-user .bottom-right{
     display: flex;
-    gap: 54px;
     align-items: center;
 }
 
@@ -70,7 +77,7 @@ input {
     color: whitesmoke;
     padding: 4px;
     border-radius: 24px;
-    width: 600px;
+    width: 550px;
     margin-bottom: 10px;
 }
 
@@ -92,7 +99,6 @@ button {
     height: fit-content;
     padding: 6px;
     text-align: center;
-    box-shadow: 3px;
 }
 
 .pfp {
@@ -152,26 +158,31 @@ li {
 }
 
 .brand {
-    padding: 20px;
+    padding: 10px;
 }
 
 .main {
     display: grid;
-    grid-column-start: 2;
-    grid-template-columns: 
-    repeat(auto-fit, minmax(250px, .5fr) );
+    grid-template-columns: 2.5fr 1fr;
+    padding: 24px 24px 48px 20px;
+    /* margin-top: 50px; */
+}
+
+.projects {
+    padding: 8px 20px 0px 0;
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(330px,1fr));
     gap: 16px;
-    margin-right: 10px;
-    margin-left: 15px;
-    margin-top: 40px;
-    padding: 10px;
 }
 
 .card {
     background-color: whitesmoke;
+    border-left: 5px solid rgb(229, 123, 169);
+    box-shadow: 5px 5px 25px  rgb(45, 41, 70);
     padding: 10px;
     height: 200px;
-    width: 300px;
+    width: 320px;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -186,17 +197,21 @@ li {
 }
 
 .news {
-    margin-right: 30px;
-    margin-left: 10px;
-    margin-top: 20px;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 24px;
+    /* margin-top: -25px; */
 }
 
 .announce {
     background-color:whitesmoke;
     padding: 16px;
-    margin-top: 8px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     border-radius: 8px;
-    width: 270px;
+    width: 250px;
+    box-shadow: 5px 5px 25px  rgb(45, 41, 70);
 }
 
 .announce-card {
@@ -204,12 +219,29 @@ li {
     padding: 10px;
 }
 
-.trending {
-    margin-top: 30px;
+.trends {
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 25px  rgb(45, 41, 70);
+    background-color: whitesmoke;
 }
 .trending-card {
-    background-color: whitesmoke;
-    padding: 10px;
+    display: flex;
+    padding: 8px;
+    gap: 10px;
+}
+
+.trend-photo {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.trend-photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 strong {
@@ -220,3 +252,19 @@ strong {
 .announce-card strong {
     color: black;
 }
+
+/* RESPONSIVE FOR DEVICES */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px){}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px){}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px){}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px){}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px){}
