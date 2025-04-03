@@ -7,74 +7,218 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="header">
-        <div>  
-            <input type="text" placeholder="Search">
-            <p>notification.svg</p>
-            <p>pfp.svg</p>
-            <p>username</p>
+    <div class="container">
+        <header class="header">
+            <div class="top-user">
+                <div class="left">
+                    <img class="icon" src="/assets/icons/search.svg" alt=""/>  
+                    <input type="text" placeholder="  Search...">
+                </div>
+                <div class="right">    
+                    <img class="icon" src="assets/icons/notification.svg"alt=""class="notification-bar"/>
+                    <div class="pfp">
+                        <img src="assets/images/Matt.png"alt="photo of user "class="photo-1"/>
+                    </div>
+                        <p class="username"><h3>Matt Rascal</h3></p>
+                </div>  
+            </div>
+            <div class="bottom-user">
+                <div class="bottom-left">
+                    <div class="pfp-2">
+                        <img src="assets/images/Matt.png"alt="photo of user "class="photo-1"/>
+                    </div>
+                    <div class="greeting">
+                        <p><h3>Good evening,</h3></p>
+                        <h2>Matt Rascal! (@BeingIsBecoming)</h2>
+                    </div> 
+                </div>
+                <div class="bottom-right">
+                    <div class="buttons">
+                        <button type="button">New</button>
+                        <button type="button">Upload</button>
+                        <button type="button">Share</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="sidebar">
+            <h2>KALI YUGA</h2>
+            <ul class="top-nav">
+                <li>
+                    <img src="/assets/icons/home.svg" alt="home icon" />
+                    Home
+                </li>
+                <li>
+                    <img src="/assets/icons/profile.svg" alt="proflie icon" />
+                    Profile
+                </li>
+                <li>
+                    <img src="/assets/icons/message.svg" alt="message icon" />
+                    Messages
+                </li>
+                <li>
+                    <img src="/assets/icons/history.svg" alt="history icon" />
+                    History
+                </li>
+                <li>
+                    <img src="/assets/icons/task.svg" alt=" task icon" />
+                    Tasks
+                </li>
+                <li>
+                    <img
+							src="/assets/icons/communities.svg"
+							alt="communities icon"
+					/>
+                    Communities
+                </li>
+            </ul>
+            <ul class="bottom-nav">
+                <li>
+                    <img src="/assets/icons/settings.svg" alt="settings icon" />
+                    Settings
+                </li>
+                <li>
+                    <img src="/assets/icons/support.svg" alt="support icon" />
+                    Support
+                </li>
+                <li>
+                    <img src="/assets/icons/privacy.svg" id= "privacy" alt="privacy icon" />
+                    Privacy
+                </li>
+            </ul>
         </div>
-        <div>Hi there, <h2>Matt Rascal! (@BeingIsBecoming)</h2></div>
-        <div>
-            <button type="button">New</button>
-            <button type="button">Upload</button>
-            <button type="button">Share</button>
+        
+        <div class="main">
+            <div class="card">
+                <div>
+                <h3>Card One</h3>
+                <p>To be, or not to be, that is the question:
+                    Whether 'tis nobler in the mind to suffer
+                    The slings and arrows of outrageous fortune,
+                </p>
+                </div>
+                <div class="projects-icons">
+                    <img src="/assets/icons/create.svg" alt="create icon"/>
+                    <img
+                        src="/assets/icons/preview.svg"
+                        alt="preview icon"
+                    />
+                    <img src="/assets/icons/share.svg" alt=" share icon"/>
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <h3>Card Two</h3>
+                    <p>Or to take arms against a sea of troubles
+                    And by opposing end them. To die—to sleep,
+                    No more;
+                    </p>
+                </div>
+                <div class="projects-icons">
+                    <img src="/assets/icons/create.svg" alt="create icon"/>
+                    <img
+                        src="/assets/icons/preview.svg"
+                        alt="preview icon"
+                    />
+                    <img src="/assets/icons/share.svg" alt=" share icon"/>
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <h3>Card Three</h3>                
+                    <p>and by a sleep to say we end
+                    The heart-ache and the thousand natural shocks
+                    That flesh is heir to: 'tis a consummation.
+                    </p>
+                </div>
+                <div class="projects-icons">
+                    <img src="/assets/icons/create.svg" alt="create icon"/>
+                    <img
+                        src="/assets/icons/preview.svg"
+                        alt="preview icon"
+                    />
+                    <img src="/assets/icons/share.svg" alt=" share icon"/>
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <h3>Card Four</h3>
+                    <p>To die, to sleep;
+                    To sleep, perchance to dream—ay, there's the rub:
+                    For in that sleep of death what dreams may come,
+                    </p>
+                </div>
+                <div class="projects-icons">
+                    <img src="/assets/icons/create.svg" alt="create icon"/>
+                    <img
+                        src="/assets/icons/preview.svg"
+                        alt="preview icon"
+                    />
+                    <img src="/assets/icons/share.svg" alt=" share icon"/>
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <h3>Card Five</h3>                
+                    <p>When we have shuffled off this mortal coil,
+                    Must give us pause—there's the respect
+                    That makes calamity of so long life.
+                    </p>
+                </div>
+                <div class="projects-icons">
+                    <img src="/assets/icons/create.svg" alt="create icon"/>
+                    <img
+                        src="/assets/icons/preview.svg"
+                        alt="preview icon"
+                    />
+                    <img src="/assets/icons/share.svg" alt=" share icon"/>
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <h3>Card Six</h3>                
+                    <p>Thus conscience doth make cowards of us all,
+                    And thus the native hue of resolution
+                    Is sicklied o'er with the pale cast of thought,
+                    </p>
+                </div>
+                <div class="projects-icons">
+                    <img src="/assets/icons/create.svg" alt="create icon"/>
+                    <img
+                        src="/assets/icons/preview.svg"
+                        alt="preview icon"
+                    />
+                    <img src="/assets/icons/share.svg" alt=" share icon"/>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="sidebar">
-        <div>
-            <h2>Dashboard</h2>
+        <div class="news">
+            <div class="announcements">
+                <strong>Announcements</strong>
+                <div class="announce">
+                    <div class="announce-card">
+                        <p><h3>Tao One</h3></p>
+                        <p>As soon as beauty is known by the world as beautiful, it becomes ugly. </p>
+                    </div>
+                    <div class="announce-card">
+                        <p><h3>Tao Two</h3></p>
+                        <p>As soon as virtue is being known as something good, it becomes evil. </p>
+                    </div>
+                    <div class="announce-card">
+                        <p><h3>Tao Three</h3></p>
+                        <p>Therefore being and non-being give birth to each other. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="trending">
+                <strong>Trending</strong>
+                <div class="trending-card">1.svg @bighead88</div>
+                <div class="trending-card">2.svg @ebachmann</div>
+                <div class="trending-card">3.svg @richardhendrix</div>
+                <div class="trending-card">4.svg @GBelson79</div>
+            </div>
+                
         </div>
-        <div>Home</div>
-        <div>Profile</div>
-        <div>Messages</div>
-        <div>History</div>
-        <div>Tasks</div>
-        <div>Communities</div>
-        <div>Settings</div>
-        <div>Support</div>
-        <div>Privacy</div>
-    </div>
-    <div class="main">
-        <div><strong>Your Projects</strong></div>
-        <div class="card">
-            <strong>Card One</strong>
-            <p>This is filler.</p>
-        </div>
-        <div class="card">
-            <strong>Card Two</strong>
-            <p>This is filler.</p>
-
-        </div>
-        <div class="card">
-            <strong>Card Three</strong>
-            <p>This is filler.</p>
-
-        </div>
-        <div class="card">
-            <strong>Card Four</strong>
-            <p>This is filler.</p>
-
-        </div>
-        <div class="card">
-            <strong>Card Five</strong>
-            <p>This is filler.</p>
-
-        </div>
-        <div class="card">
-            <strong>Card Six</strong>
-            <p>This is filler.</p>
-        </div>
-    </div>
-    <div class="news">
-        <div><strong>Announcements</strong></div>
-            <div class="announce">Site Maintenence</div>
-            <div class="announce">Community Share</div>
-            <div class="announce">Privacy Policy</div>
-        <div><strong>Trending</strong></div>
-            <div class="trending">starfox88</div>
-            <div class="trending">dirtysally21</div>
-            <div class="trending">killbill25</div>
     </div>
 </body>
 </html>
