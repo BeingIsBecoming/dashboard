@@ -1,2 +1,9 @@
-# dashboard
-Admin Dashboard project to practice vanilla CSS via Grid 
+# Project: Dashboard
+Admin Dashboard project to practice vanilla CSS via Grid.
+
+## Screenshot
+![](/assets/images/Screenshot.png)
+
+
+## Live Preview
+[Live Preview]()
