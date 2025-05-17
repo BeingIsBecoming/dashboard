@@ -6,4 +6,4 @@ Admin Dashboard project to practice vanilla CSS via Grid.
 
 
 ## Live Preview
-[Live Preview](https://beingisbecoming.github.io/dashboard/)
+[Live](https://beingisbecoming.github.io/dashboard/)
